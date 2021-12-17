@@ -19,6 +19,8 @@ import { ShopComponent } from './shop/shop.component';
 import { CartComponent } from './shop/cart/cart.component';
 import { BioComponent } from './shop/bio/bio.component';
 import { DealsComponent } from './shop/deals/deals.component';
+import { PayoutComponent } from './payout/payout.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { DealsComponent } from './shop/deals/deals.component';
     ShopComponent,
     CartComponent,
     BioComponent,
-    DealsComponent
+    DealsComponent,
+    PayoutComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
