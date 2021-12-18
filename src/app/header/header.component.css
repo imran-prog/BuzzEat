@@ -103,22 +103,20 @@ ul > li > a {
 }
 
 .logo > a:before {
-  border-color: transparent #ffca3c #ffca3c transparent;
+  border-color: transparent #ffca3c #ffca3c transparent !important;
   filter: brightness(66%);
   content: " ";
   position: absolute;
   background: 0 0;
   border: 4px solid;
   display: block;
-  width: 8px;
-  height: 8px;
   left: -8px;
   top: 0;
   z-index: 30000;
 }
 
 .logo > a::after {
-  border-color: transparent transparent #ffca3c #ffca3c;
+  border-color: transparent transparent #ffca3c #ffca3c !important;
   filter: brightness(66%);
   left: auto;
   right: -8px;
@@ -127,8 +125,6 @@ ul > li > a {
   background: 0 0;
   border: 4px solid;
   display: block;
-  width: 8px;
-  height: 8px;
   top: 0;
   z-index: 30000;
 }
