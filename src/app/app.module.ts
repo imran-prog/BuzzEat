@@ -22,6 +22,7 @@ import { DealsComponent } from './shop/deals/deals.component';
 import { PayoutComponent } from './payout/payout.component';
 import { Error404Component } from './error404/error404.component';
 import { NewsletterComponent } from './home/newsletter/newsletter.component';
+import { FeaturesComponent } from './home/features/features.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { NewsletterComponent } from './home/newsletter/newsletter.component';
     DealsComponent,
     PayoutComponent,
     Error404Component,
-    NewsletterComponent
+    NewsletterComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
