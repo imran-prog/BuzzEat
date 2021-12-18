@@ -21,6 +21,8 @@ import { BioComponent } from './shop/bio/bio.component';
 import { DealsComponent } from './shop/deals/deals.component';
 import { PayoutComponent } from './payout/payout.component';
 import { Error404Component } from './error404/error404.component';
+import { NewsletterComponent } from './home/newsletter/newsletter.component';
+
 
 @NgModule({
   declarations: [
@@ -42,11 +44,12 @@ import { Error404Component } from './error404/error404.component';
     BioComponent,
     DealsComponent,
     PayoutComponent,
-    Error404Component
+    Error404Component,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
