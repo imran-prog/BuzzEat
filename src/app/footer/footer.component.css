@@ -191,7 +191,7 @@
     height: 32px;
     margin: 8px 6px 0 0;
     float: left;
-    background-image: url(https://lafka.althemist.com/fastfood/wp-content/themes/lafka/image/cards.png);
+    background-image: url(/assets/images/cards.png);
   }
   .visa_icon {
     background-position: 155px 0;
