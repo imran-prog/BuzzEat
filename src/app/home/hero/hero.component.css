@@ -10,6 +10,16 @@
   padding-left: 10% !important;
 }
 
+.figure {
+  position: absolute;
+  left: -2%;
+  margin-top: -124px;
+}
+
+.figure > img {
+  width: 150px;
+}
+
 .main-section {
   max-width: 1400px;
   margin: 0 auto;
