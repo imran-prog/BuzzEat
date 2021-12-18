@@ -58,7 +58,7 @@
 
 .info-section > form > input {
   height: 50px;
-  width: 60%;
+  width: 65%;
   border: 1px solid #cdcdcd;
   border-radius: 20px 0 0 20px;
   color: #000;
@@ -73,7 +73,9 @@
   padding: 0 20px;
   color: #fff;
   font-size: 15px;
-  width: 90px;
+  width: 110px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .info-section > h4 {
