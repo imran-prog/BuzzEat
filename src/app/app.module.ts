@@ -9,9 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { HeroComponent } from './home/hero/hero.component';
 import { CategoryComponent } from './home/category/category.component';
 import { BrandsComponent } from './home/brands/brands.component';
-import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './register/login/login.component';
-import { SignupComponent } from './register/signup/signup.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 import { RestaurantComponent } from './restaurant/restaurant.component';
 import { LocationBaseComponent } from './restaurant/location-base/location-base.component';
 import { ProductBaseComponent } from './restaurant/product-base/product-base.component';
@@ -21,9 +20,8 @@ import { BioComponent } from './shop/bio/bio.component';
 import { DealsComponent } from './shop/deals/deals.component';
 import { PayoutComponent } from './payout/payout.component';
 import { Error404Component } from './error404/error404.component';
-import { NewsletterComponent } from './home/newsletter/newsletter.component';
 import { FeaturesComponent } from './home/features/features.component';
-
+import { NewsletterComponent } from './home/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +32,6 @@ import { FeaturesComponent } from './home/features/features.component';
     HeroComponent,
     CategoryComponent,
     BrandsComponent,
-    RegisterComponent,
     LoginComponent,
     SignupComponent,
     RestaurantComponent,
@@ -46,12 +43,12 @@ import { FeaturesComponent } from './home/features/features.component';
     DealsComponent,
     PayoutComponent,
     Error404Component,
-    NewsletterComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
