@@ -48,6 +48,14 @@ ul {
   display: flex;
 }
 
+.block {
+  display: block !important;
+}
+
+.none {
+  display: none;
+}
+
 .yellow {
   color: #ffca3c;
 }
