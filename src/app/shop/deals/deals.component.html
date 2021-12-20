@@ -4,8 +4,8 @@
       <div class="left-details detail-box">
         <h3 class="deal-title">All Details</h3>
         <ul class="details-list block">
-          <li class="details-item active">
-            <button class="flex">
+          <li class="details-item">
+            <button class="flex tablinks" onclick="openNav(event, 'Menu')" id="defaultOpen">
               <span
                 class="iconify"
                 data-icon="flat-color-icons:view-details"
@@ -15,7 +15,7 @@
             </button>
           </li>
           <li class="details-item">
-            <button class="flex">
+            <button class="flex tablinks" onclick="openNav(event, 'Review')">
               <span
                 class="iconify"
                 data-icon="clarity:group-solid"
@@ -25,7 +25,7 @@
             </button>
           </li>
           <li class="details-item">
-            <button class="flex">
+            <button class="flex tablinks" onclick="openNav(event, 'Info')">
               <span
                 class="iconify"
                 data-icon="flat-color-icons:info"
@@ -44,8 +44,9 @@
       </div>
     </div>
     <div class="center-deals">
-      <app-menu></app-menu>
-      <app-reviews class="none"></app-reviews>
+      <app-menu class="tabcontent" id="Menu"></app-menu>
+      <app-reviews class="none tabcontent" id="Review"></app-reviews>
+      <app-info class="none tabcontent" id="Info"></app-info>
     </div>
     <div class="right-deals">
       <div class="right-popular detail-box">

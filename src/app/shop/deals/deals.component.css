@@ -52,7 +52,7 @@ li.details-item > button {
   align-items: center;
 }
 
-li.details-item.active > button {
+li.details-item > button.active {
   background: #f2f2f2;
 }
 
@@ -115,4 +115,18 @@ p.best-desc {
   width: 100%;
   border-radius: 5px;
   border: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
