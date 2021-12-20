@@ -44,44 +44,59 @@
     <div class="middle-tabs middle-box">
       <ul>
         <li class="tabs-item">
-          <a href="#">
+          <button onclick="openside()" (click)="toggleAccount()">
             <span
               class="iconify"
               data-icon="line-md:account"
               style="color: black"
             ></span>
-          </a>
+          </button>
         </li>
         <li class="tabs-item">
-          <a href="#">
+          <button onclick="openside()" (click)="toggleFavourite()">
             <span
               class="iconify"
               data-icon="ant-design:heart-outlined"
               style="color: black"
             ></span>
             <div class="count" style="right: 182px">0</div>
-          </a>
+          </button>
         </li>
         <li class="tabs-item">
-          <a href="#">
+          <button onclick="openside()" (click)="toggleCart()">
             <span
               class="iconify"
               data-icon="fontisto:shopping-basket"
               style="color: black"
             ></span>
             <div class="count">0</div>
-          </a>
+          </button>
         </li>
         <li class="tabs-item">
-          <a href="#">
+          <button onclick="openside()" (click)="toggleSearch()">
             <span
               class="iconify"
               data-icon="akar-icons:search"
               style="color: black"
             ></span>
-          </a>
+          </button>
         </li>
       </ul>
     </div>
+  </div>
+  <div class="sidebar" id="sidePanel">
+    <h1>Hello</h1>
+    <a
+      href="javascript:void(0)"
+      class="closebtn"
+      onclick="closeside()"
+      style="color: black"
+      (click)="cross()"
+      >×</a
+    >
+    <app-profile [showMePartially]="showVar"></app-profile>
+    <app-favourite [showMePartially2]="showFav"></app-favourite>
+    <app-cart [showMePartially3]="showCart"></app-cart>
+    <app-search [showMePartially4]="showSearch"></app-search>
   </div>
 </div>

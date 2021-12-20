@@ -28,6 +28,11 @@ import { ContactComponent } from './contact/contact.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { LocationsComponent } from './locations/locations.component';
 import { NewsletterComponent } from './home/newsletter/newsletter.component';
+import { CartComponent } from './cart/cart.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FavouriteComponent } from './favourite/favourite.component';
+import { AccountComponent } from './account/account.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +62,11 @@ import { NewsletterComponent } from './home/newsletter/newsletter.component';
     ContactComponent,
     PrivacyComponent,
     LocationsComponent,
+    CartComponent,
+    ProfileComponent,
+    FavouriteComponent,
+    AccountComponent,
+    SearchComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
