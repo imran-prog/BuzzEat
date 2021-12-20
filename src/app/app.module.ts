@@ -25,6 +25,10 @@ import { FeaturesComponent } from './home/features/features.component';
 import { MenuComponent } from './shop/menu/menu.component';
 import { ReviewsComponent } from './shop/reviews/reviews.component';
 import { InfoComponent } from './shop/info/info.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { LocationsComponent } from './locations/locations.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +55,10 @@ import { InfoComponent } from './shop/info/info.component';
     MenuComponent,
     ReviewsComponent,
     InfoComponent,
+    AboutComponent,
+    ContactComponent,
+    PrivacyComponent,
+    LocationsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
