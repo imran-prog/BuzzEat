@@ -3,6 +3,7 @@
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 4px 0 #ccc;
+  border-radius: 20px;
 }
 
 .review-title {
@@ -207,4 +208,25 @@ p#rating {
 
 .reviews-container > .main-review:first-child {
   border-top: 0;
+}
+
+.no-review {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-icons {
+  margin-right: 10px;
+}
+
+.review-icons > svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 0px;
+  color: #848484 !important;
+}
+
+.no-review {
+  color: #8e8e8e;
 }
