@@ -74,11 +74,13 @@ p.main-menu-desc {
   margin-bottom: 20px;
 }
 
-li.main-menu-item {
+li.main-menu-item > a {
   width: 100%;
   padding: 22px 0;
   height: 80px;
   border-top: 2px solid #f3f5ff;
+  text-decoration: none;
+  color: #000;
 }
 
 .main-menu-image {
