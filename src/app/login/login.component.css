@@ -81,6 +81,10 @@
     div.form-field-group{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;}
     div.form-field-group .form-field{width:48%;}
     }
+    main{margin:0 auto;padding:0 20px;}
+    @media (min-width: 960px){
+    main{display:-ms-flexbox;display:flex;-ms-flex-positive:1;flex-grow:1;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;margin:0;padding:0;}
+    }
     .auth-content{width:100%;max-width:416px;margin:auto;}
     @media (min-width: 960px){
     .auth-content{margin:0;padding:30px 60px 0;}
