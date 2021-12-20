@@ -1,7 +1,53 @@
-<div class="flex deals">
-  <div class="left-deals"></div>
-  <div class="center-deals">
-    <app-menu></app-menu>
+<div class="deals">
+  <div class="deal-container flex">
+    <div class="left-deals">
+      <div class="left-details detail-box">
+        <h3 class="deal-title">All Details</h3>
+        <ul class="details-list block">
+          <li class="details-item active">
+            <button class="flex">
+              <span
+                class="iconify"
+                data-icon="flat-color-icons:view-details"
+                style="color: black"
+              ></span>
+              Menu
+            </button>
+          </li>
+          <li class="details-item">
+            <button class="flex">
+              <span
+                class="iconify"
+                data-icon="clarity:group-solid"
+                style="color: #699bf7"
+              ></span>
+              Reviews
+            </button>
+          </li>
+          <li class="details-item">
+            <button class="flex">
+              <span
+                class="iconify"
+                data-icon="flat-color-icons:info"
+                style="color: #699bf7"
+              ></span>
+              Restaurant Info
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="left-adver detail-box">
+        <h3 class="deal-title">Advertisment</h3>
+        <img src="assets/images/ad.png" alt="" />
+      </div>
+    </div>
+    <div class="center-deals">
+      <app-menu></app-menu>
+    </div>
+    <div class="right-deals">
+      <div class="right-popular detail-box">
+        <h3 class="deal-title">Best Selling</h3>
+      </div>
+    </div>
   </div>
-  <div class="right-deals"></div>
 </div>

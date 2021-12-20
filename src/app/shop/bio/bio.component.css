@@ -49,6 +49,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 0;
+  place-self: flex-end;
 }
 
 .data-image > img {
