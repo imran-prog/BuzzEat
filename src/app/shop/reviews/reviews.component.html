@@ -1,0 +1,99 @@
+<div class="write-review review-box">
+  <div class="review-title">Write Review</div>
+  <form action="/" method="post" class="review-form">
+    <div class="form-bar flex">
+      <div class="form-icon">
+        <span
+          class="iconify"
+          data-icon="clarity:pencil-solid"
+          style="color: black"
+        ></span>
+      </div>
+      <input
+        type="text"
+        name="review"
+        id="review-bar"
+        placeholder="your review"
+      />
+    </div>
+    <label for="stars" class="flex"
+      >Rating
+      <span class="flex" style="margin-left: 10px">
+        <span class="iconify yellow" data-icon="bi:star-fill"></span>
+        <p id="rating"></p> </span
+    ></label>
+    <input
+      type="range"
+      name="stars"
+      id="stars"
+      min="1"
+      max="5"
+      value="4.5"
+      step="0.5"
+      list="rates"
+    />
+    <datalist id="rates">
+      <option value="1" label="1"></option>
+      <option value="2" label="2"></option>
+      <option value="3" label="3"></option>
+      <option value="4" label="4"></option>
+      <option value="5" label="5"></option>
+    </datalist>
+    <button type="submit">Add Review</button>
+  </form>
+</div>
+<div class="reviews review-box">
+  <div class="review-title">Reviews</div>
+  <div class="no-review flex none">
+    <div class="review-icons flex">
+      <span
+        class="iconify"
+        data-icon="ic:round-account-circle"
+        style="color: black"
+      ></span>
+      <span
+        class="iconify"
+        data-icon="ic:round-account-circle"
+        style="color: black"
+      ></span>
+      <span
+        class="iconify"
+        data-icon="ic:round-account-circle"
+        style="color: black"
+      ></span>
+    </div>
+    <p>No user has reviewed this store</p>
+  </div>
+  <div class="reviews-container">
+    <div class="main-review flex">
+      <div class="review-image">
+        <img src="assets/images/face.jpg" alt="" />
+      </div>
+      <div class="review-data">
+        <div class="review-bio flex">
+          <div class="review-name">Amir Khan</div>
+          <p>•</p>
+          <div class="review-date">19/12/2021</div>
+        </div>
+        <div class="ye-review-hai">
+          I really liked the flavor of barBQ pizza also has good price too.
+        </div>
+      </div>
+    </div>
+    <div class="main-review flex">
+      <div class="review-image">
+        <img src="assets/images/face.jpg" alt="" />
+      </div>
+      <div class="review-data">
+        <div class="review-bio flex">
+          <div class="review-name">Amir Khan</div>
+          <p>•</p>
+          <div class="review-date">19/12/2021</div>
+        </div>
+        <div class="ye-review-hai">
+          I really liked the flavor of barBQ pizza also has good price too.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

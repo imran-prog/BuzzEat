@@ -15,12 +15,18 @@ import { RestaurantComponent } from './restaurant/restaurant.component';
 import { LocationBaseComponent } from './restaurant/location-base/location-base.component';
 import { ProductBaseComponent } from './restaurant/product-base/product-base.component';
 import { ShopComponent } from './shop/shop.component';
-import { CartComponent } from './shop/cart/cart.component';
 import { BioComponent } from './shop/bio/bio.component';
 import { DealsComponent } from './shop/deals/deals.component';
 import { PayoutComponent } from './payout/payout.component';
 import { Error404Component } from './error404/error404.component';
 import { FeaturesComponent } from './home/features/features.component';
+import { MenuComponent } from './shop/menu/menu.component';
+import { ReviewsComponent } from './shop/reviews/reviews.component';
+import { InfoComponent } from './shop/info/info.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { LocationsComponent } from './locations/locations.component';
 import { NewsletterComponent } from './home/newsletter/newsletter.component';
 
 @NgModule({
@@ -38,19 +44,22 @@ import { NewsletterComponent } from './home/newsletter/newsletter.component';
     LocationBaseComponent,
     ProductBaseComponent,
     ShopComponent,
-    CartComponent,
     BioComponent,
     DealsComponent,
     PayoutComponent,
     Error404Component,
+    NewsletterComponent,
     FeaturesComponent,
-    NewsletterComponent
+    MenuComponent,
+    ReviewsComponent,
+    InfoComponent,
+    AboutComponent,
+    ContactComponent,
+    PrivacyComponent,
+    LocationsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
