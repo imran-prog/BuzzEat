@@ -74,7 +74,7 @@
     font-style: italic;
   }
   #footer {
-    z-index: 20;
+    z-index: 100;
   }
   div.widget_nav_menu ul {
     padding: 0;
@@ -451,7 +451,7 @@ a:hover {
 }
 h3,
 div.widget_nav_menu ul li a {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-display: fallback;
 }
 h3 {
@@ -460,4 +460,3 @@ h3 {
   font-weight: 700;
   font-style: normal;
 }
-
