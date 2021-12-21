@@ -49,14 +49,14 @@
   .wpb_content_element form.mc4wp-form {
     display: block;
   }
-  .lafka_single_field_subscribe {
+  .buzzeat_single_field_subscribe {
     position: relative;
     min-height: 55px;
     margin-bottom: 10px;
   }
   .wpb_content_element
     form.mc4wp-form
-    .lafka_single_field_subscribe
+    .buzzeat_single_field_subscribe
     input[type="email"] {
     width: 100%;
     height: 56px;
@@ -74,14 +74,14 @@
   }
   .wpb_content_element
     form.mc4wp-form
-    .lafka_single_field_subscribe
+    .buzzeat_single_field_subscribe
     input[type="email"]:focus {
     background: #fff;
     border-color: #fff;
   }
   .wpb_content_element
     form.mc4wp-form
-    .lafka_single_field_subscribe
+    .buzzeat_single_field_subscribe
     input[type="submit"] {
     position: absolute;
     top: 3px;
@@ -172,7 +172,7 @@
     width: 100%;
     position: relative;
   }
-  .vc_row.lafka-visible-overlay[data-vc-full-width] {
+  .vc_row.buzzeat-visible-overlay[data-vc-full-width] {
     overflow: visible;
     z-index: 20;
   }
