@@ -1,0 +1,44 @@
+.cart {
+  margin: 20px;
+}
+.cart > h3 {
+  margin-left: 28px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.no-item {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.no-cart {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.no-item > p {
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.no-item > button {
+  height: 40px;
+  width: 120px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+}
+
+.no-cart > svg {
+  height: 25px;
+  width: 25px;
+}

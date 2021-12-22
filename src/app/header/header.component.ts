@@ -14,26 +14,26 @@ export class HeaderComponent implements OnInit {
 
   toggleAccount() {
     this.showVar = true;
-    console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
+    // console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
   }
   toggleFavourite() {
     this.showFav = true;
-    console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
+    // console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
   }
   toggleCart() {
     this.showCart = true;
-    console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
+    // console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
   }
   toggleSearch() {
     this.showSearch = true;
-    console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
+    // console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
   }
   cross() {
     this.showCart = false;
     this.showFav = false;
     this.showSearch = false;
     this.showVar = false;
-    console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
+    // console.log(this.showVar, this.showFav, this.showCart, this.showSearch);
   }
   constructor(
     private _renderer2: Renderer2,

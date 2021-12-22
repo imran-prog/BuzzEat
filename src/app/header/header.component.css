@@ -220,6 +220,13 @@
   overflow-x: hidden;
   transition: 0.5s;
   max-height: 1080px;
-  height: 100%;
-  padding: 20px;
+  height: 610px;
+}
+
+.closebtn {
+  position: absolute;
+  font-size: 30px;
+  top: 18px;
+  left: 20px;
+  text-decoration: none;
 }
