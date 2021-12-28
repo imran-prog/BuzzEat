@@ -175,4 +175,6 @@ li.brand-item {
   left: 0;
   z-index: 4;
   margin-top: 64px;
+  width: 100%;
+  overflow-x: hidden;
 }
